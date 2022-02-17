@@ -3320,3 +3320,314 @@ java.io.InvalidClassException: com.mista1984.bank.domain.user.BankAccount; local
 2022-02-17 17:37:25.026 [main] INFO  com.mista1984.bank.app.AppRun - Enter 10 to selection of transactions for the period
 2022-02-17 17:37:31.650 [main] INFO  com.mista1984.bank.app.AppRun - Goodbye!
 2022-02-17 17:37:31.666 [main] INFO  com.mista1984.bank.io.SerializationUtils - Data was saved.
+2022-02-17 18:03:16.976 [main] INFO  com.mista1984.bank.io.SerializationUtils - Data is loaded.
+2022-02-17 18:03:17.044 [main] INFO  com.mista1984.bank.app.AppRun - Enter 0 to exit the application
+2022-02-17 18:03:17.044 [main] INFO  com.mista1984.bank.app.AppRun - Enter 1 to show all banks
+2022-02-17 18:03:17.045 [main] INFO  com.mista1984.bank.app.AppRun - Enter 2 to add bank
+2022-02-17 18:03:17.046 [main] INFO  com.mista1984.bank.app.AppRun - Enter 3 to delete bank
+2022-02-17 18:03:17.046 [main] INFO  com.mista1984.bank.app.AppRun - Enter 4 to show users in the bank
+2022-02-17 18:03:17.047 [main] INFO  com.mista1984.bank.app.AppRun - Enter 5 to add the user in bank
+2022-02-17 18:03:17.047 [main] INFO  com.mista1984.bank.app.AppRun - Enter 6 to add user account
+2022-02-17 18:03:17.048 [main] INFO  com.mista1984.bank.app.AppRun - Enter 7 to top up account
+2022-02-17 18:03:17.049 [main] INFO  com.mista1984.bank.app.AppRun - Enter 8 to transfer money
+2022-02-17 18:03:17.049 [main] INFO  com.mista1984.bank.app.AppRun - Enter 9 to show account transactions
+2022-02-17 18:03:17.050 [main] INFO  com.mista1984.bank.app.AppRun - Enter 10 to selection of transactions for the period
+2022-02-17 18:03:19.956 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Input id Bank for show users
+2022-02-17 18:03:21.632 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Showing users in bank
+2022-02-17 18:03:21.706 [main] INFO  com.mista1984.bank.service.BankServiceImpl - [IndividualPerson{idUser='9l9t0j', nameUser='Ivan', bankAccountList=[BankAccount{numberOfBankAccount='w4mbFQQmSJ', balance=3900.0, currency=BYN}, BankAccount{numberOfBankAccount='pOiLEToIOl', balance=1950.0, currency=USD}]}
+]
+2022-02-17 18:03:21.707 [main] INFO  com.mista1984.bank.app.AppRun - Enter 0 to exit the application
+2022-02-17 18:03:21.707 [main] INFO  com.mista1984.bank.app.AppRun - Enter 1 to show all banks
+2022-02-17 18:03:21.707 [main] INFO  com.mista1984.bank.app.AppRun - Enter 2 to add bank
+2022-02-17 18:03:21.707 [main] INFO  com.mista1984.bank.app.AppRun - Enter 3 to delete bank
+2022-02-17 18:03:21.707 [main] INFO  com.mista1984.bank.app.AppRun - Enter 4 to show users in the bank
+2022-02-17 18:03:21.708 [main] INFO  com.mista1984.bank.app.AppRun - Enter 5 to add the user in bank
+2022-02-17 18:03:21.708 [main] INFO  com.mista1984.bank.app.AppRun - Enter 6 to add user account
+2022-02-17 18:03:21.708 [main] INFO  com.mista1984.bank.app.AppRun - Enter 7 to top up account
+2022-02-17 18:03:21.708 [main] INFO  com.mista1984.bank.app.AppRun - Enter 8 to transfer money
+2022-02-17 18:03:21.709 [main] INFO  com.mista1984.bank.app.AppRun - Enter 9 to show account transactions
+2022-02-17 18:03:21.709 [main] INFO  com.mista1984.bank.app.AppRun - Enter 10 to selection of transactions for the period
+2022-02-17 18:03:29.227 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Input id Bank for show users
+2022-02-17 18:03:29.642 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Showing users in bank
+2022-02-17 18:03:29.644 [main] INFO  com.mista1984.bank.service.BankServiceImpl - [Orginization{idUser='3EGGSI', nameUser='Azot', bankAccountList=[BankAccount{numberOfBankAccount='JmgeBDgAEj', balance=95700.0, currency=BYN}]}
+, IndividualPerson{idUser='CG3rVf', nameUser='Petia', bankAccountList=[BankAccount{numberOfBankAccount='oklWgBqslH', balance=3000.0, currency=BYN}]}
+, Orginization{idUser='7mU6jj', nameUser='Biocom', bankAccountList=[BankAccount{numberOfBankAccount='UT8cAvNMG2', balance=16500.0, currency=BYN}]}
+]
+2022-02-17 18:03:29.644 [main] INFO  com.mista1984.bank.app.AppRun - Enter 0 to exit the application
+2022-02-17 18:03:29.645 [main] INFO  com.mista1984.bank.app.AppRun - Enter 1 to show all banks
+2022-02-17 18:03:29.645 [main] INFO  com.mista1984.bank.app.AppRun - Enter 2 to add bank
+2022-02-17 18:03:29.645 [main] INFO  com.mista1984.bank.app.AppRun - Enter 3 to delete bank
+2022-02-17 18:03:29.646 [main] INFO  com.mista1984.bank.app.AppRun - Enter 4 to show users in the bank
+2022-02-17 18:03:29.646 [main] INFO  com.mista1984.bank.app.AppRun - Enter 5 to add the user in bank
+2022-02-17 18:03:29.646 [main] INFO  com.mista1984.bank.app.AppRun - Enter 6 to add user account
+2022-02-17 18:03:29.647 [main] INFO  com.mista1984.bank.app.AppRun - Enter 7 to top up account
+2022-02-17 18:03:29.647 [main] INFO  com.mista1984.bank.app.AppRun - Enter 8 to transfer money
+2022-02-17 18:03:29.647 [main] INFO  com.mista1984.bank.app.AppRun - Enter 9 to show account transactions
+2022-02-17 18:03:29.648 [main] INFO  com.mista1984.bank.app.AppRun - Enter 10 to selection of transactions for the period
+2022-02-17 18:03:38.072 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Enter the id of the bank from which you want to make a transfer:
+2022-02-17 18:03:42.400 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Enter the id of the user from which you want to make a transfer:
+2022-02-17 18:03:59.091 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Try find bank id = '1'
+2022-02-17 18:03:59.093 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Find users in bank
+2022-02-17 18:03:59.094 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Find user in bank with id = 'CG3rVf'
+2022-02-17 18:03:59.094 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Enter number of account:
+2022-02-17 18:04:08.171 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Try find bank account number= 'oklWgBqslH'
+2022-02-17 18:04:08.171 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Find bank account number= 'oklWgBqslH'
+2022-02-17 18:04:08.172 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Enter the id of the bank to which you want to transfer money:
+2022-02-17 18:04:11.740 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Enter the id of the user to which you want to transfer money:
+2022-02-17 18:04:21.115 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Try find bank id = '1'
+2022-02-17 18:04:21.116 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Find users in bank
+2022-02-17 18:04:21.116 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Find user in bank with id = '7mU6jj'
+2022-02-17 18:04:21.117 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Enter number of account:
+2022-02-17 18:04:32.111 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Try find bank account number= 'UT8cAvNMG2'
+2022-02-17 18:04:32.111 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Find bank account number= 'UT8cAvNMG2'
+2022-02-17 18:04:32.112 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Enter the amount you want to top up your account:
+2022-02-17 18:04:35.181 [main] INFO  com.mista1984.bank.app.AppRun - Enter 0 to exit the application
+2022-02-17 18:04:35.189 [main] INFO  com.mista1984.bank.app.AppRun - Enter 1 to show all banks
+2022-02-17 18:04:35.189 [main] INFO  com.mista1984.bank.app.AppRun - Enter 2 to add bank
+2022-02-17 18:04:35.190 [main] INFO  com.mista1984.bank.app.AppRun - Enter 3 to delete bank
+2022-02-17 18:04:35.190 [main] INFO  com.mista1984.bank.app.AppRun - Enter 4 to show users in the bank
+2022-02-17 18:04:35.191 [main] INFO  com.mista1984.bank.app.AppRun - Enter 5 to add the user in bank
+2022-02-17 18:04:35.194 [main] INFO  com.mista1984.bank.app.AppRun - Enter 6 to add user account
+2022-02-17 18:04:35.195 [main] INFO  com.mista1984.bank.app.AppRun - Enter 7 to top up account
+2022-02-17 18:04:35.195 [main] INFO  com.mista1984.bank.app.AppRun - Enter 8 to transfer money
+2022-02-17 18:04:35.196 [main] INFO  com.mista1984.bank.app.AppRun - Enter 9 to show account transactions
+2022-02-17 18:04:35.196 [main] INFO  com.mista1984.bank.app.AppRun - Enter 10 to selection of transactions for the period
+2022-02-17 18:04:38.137 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Input id Bank for show users
+2022-02-17 18:04:39.099 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Showing users in bank
+2022-02-17 18:04:39.099 [main] INFO  com.mista1984.bank.service.BankServiceImpl - [Orginization{idUser='3EGGSI', nameUser='Azot', bankAccountList=[BankAccount{numberOfBankAccount='JmgeBDgAEj', balance=95700.0, currency=BYN}]}
+, IndividualPerson{idUser='CG3rVf', nameUser='Petia', bankAccountList=[BankAccount{numberOfBankAccount='oklWgBqslH', balance=2000.0, currency=BYN}]}
+, Orginization{idUser='7mU6jj', nameUser='Biocom', bankAccountList=[BankAccount{numberOfBankAccount='UT8cAvNMG2', balance=17500.0, currency=BYN}]}
+]
+2022-02-17 18:04:39.248 [main] INFO  com.mista1984.bank.app.AppRun - Enter 0 to exit the application
+2022-02-17 18:04:39.249 [main] INFO  com.mista1984.bank.app.AppRun - Enter 1 to show all banks
+2022-02-17 18:04:39.249 [main] INFO  com.mista1984.bank.app.AppRun - Enter 2 to add bank
+2022-02-17 18:04:39.250 [main] INFO  com.mista1984.bank.app.AppRun - Enter 3 to delete bank
+2022-02-17 18:04:39.250 [main] INFO  com.mista1984.bank.app.AppRun - Enter 4 to show users in the bank
+2022-02-17 18:04:39.251 [main] INFO  com.mista1984.bank.app.AppRun - Enter 5 to add the user in bank
+2022-02-17 18:04:39.251 [main] INFO  com.mista1984.bank.app.AppRun - Enter 6 to add user account
+2022-02-17 18:04:39.252 [main] INFO  com.mista1984.bank.app.AppRun - Enter 7 to top up account
+2022-02-17 18:04:39.253 [main] INFO  com.mista1984.bank.app.AppRun - Enter 8 to transfer money
+2022-02-17 18:04:39.253 [main] INFO  com.mista1984.bank.app.AppRun - Enter 9 to show account transactions
+2022-02-17 18:04:39.254 [main] INFO  com.mista1984.bank.app.AppRun - Enter 10 to selection of transactions for the period
+2022-02-17 18:04:56.900 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Input id Bank for show users
+2022-02-17 18:04:57.893 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Showing users in bank
+2022-02-17 18:04:57.894 [main] INFO  com.mista1984.bank.service.BankServiceImpl - [IndividualPerson{idUser='9l9t0j', nameUser='Ivan', bankAccountList=[BankAccount{numberOfBankAccount='w4mbFQQmSJ', balance=3900.0, currency=BYN}, BankAccount{numberOfBankAccount='pOiLEToIOl', balance=1950.0, currency=USD}]}
+]
+2022-02-17 18:04:57.894 [main] INFO  com.mista1984.bank.app.AppRun - Enter 0 to exit the application
+2022-02-17 18:04:57.894 [main] INFO  com.mista1984.bank.app.AppRun - Enter 1 to show all banks
+2022-02-17 18:04:57.894 [main] INFO  com.mista1984.bank.app.AppRun - Enter 2 to add bank
+2022-02-17 18:04:57.895 [main] INFO  com.mista1984.bank.app.AppRun - Enter 3 to delete bank
+2022-02-17 18:04:57.895 [main] INFO  com.mista1984.bank.app.AppRun - Enter 4 to show users in the bank
+2022-02-17 18:04:57.895 [main] INFO  com.mista1984.bank.app.AppRun - Enter 5 to add the user in bank
+2022-02-17 18:04:57.896 [main] INFO  com.mista1984.bank.app.AppRun - Enter 6 to add user account
+2022-02-17 18:04:57.896 [main] INFO  com.mista1984.bank.app.AppRun - Enter 7 to top up account
+2022-02-17 18:04:57.896 [main] INFO  com.mista1984.bank.app.AppRun - Enter 8 to transfer money
+2022-02-17 18:04:57.897 [main] INFO  com.mista1984.bank.app.AppRun - Enter 9 to show account transactions
+2022-02-17 18:04:57.897 [main] INFO  com.mista1984.bank.app.AppRun - Enter 10 to selection of transactions for the period
+2022-02-17 18:05:03.283 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Enter the id of the bank from which you want to make a transfer:
+2022-02-17 18:05:06.588 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Enter the id of the user from which you want to make a transfer:
+2022-02-17 18:05:15.251 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Try find bank id = '1'
+2022-02-17 18:05:15.251 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Find users in bank
+2022-02-17 18:05:15.251 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Find user in bank with id = '7mU6jj'
+2022-02-17 18:05:15.251 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Enter number of account:
+2022-02-17 18:05:24.925 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Try find bank account number= '7mU6jj'
+2022-02-17 18:05:24.926 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Enter the id of the bank to which you want to transfer money:
+2022-02-17 18:05:28.917 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Enter the id of the user to which you want to transfer money:
+2022-02-17 18:05:39.352 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Try find bank id = '0'
+2022-02-17 18:05:39.352 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Find users in bank
+2022-02-17 18:05:39.352 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Find user in bank with id = '9l9t0j'
+2022-02-17 18:05:39.352 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Enter number of account:
+2022-02-17 18:05:59.473 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Try find bank account number= 'w4mbFQQmSJ'
+2022-02-17 18:05:59.473 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Find bank account number= 'w4mbFQQmSJ'
+2022-02-17 18:05:59.474 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Enter the amount you want to top up your account:
+2022-02-17 18:06:02.680 [main] INFO  com.mista1984.bank.service.BankServiceImpl - null Something went wrong!!!
+2022-02-17 18:06:02.681 [main] INFO  com.mista1984.bank.app.AppRun - Enter 0 to exit the application
+2022-02-17 18:06:02.682 [main] INFO  com.mista1984.bank.app.AppRun - Enter 1 to show all banks
+2022-02-17 18:06:02.682 [main] INFO  com.mista1984.bank.app.AppRun - Enter 2 to add bank
+2022-02-17 18:06:02.683 [main] INFO  com.mista1984.bank.app.AppRun - Enter 3 to delete bank
+2022-02-17 18:06:02.683 [main] INFO  com.mista1984.bank.app.AppRun - Enter 4 to show users in the bank
+2022-02-17 18:06:02.683 [main] INFO  com.mista1984.bank.app.AppRun - Enter 5 to add the user in bank
+2022-02-17 18:06:02.684 [main] INFO  com.mista1984.bank.app.AppRun - Enter 6 to add user account
+2022-02-17 18:06:02.684 [main] INFO  com.mista1984.bank.app.AppRun - Enter 7 to top up account
+2022-02-17 18:06:02.684 [main] INFO  com.mista1984.bank.app.AppRun - Enter 8 to transfer money
+2022-02-17 18:06:02.684 [main] INFO  com.mista1984.bank.app.AppRun - Enter 9 to show account transactions
+2022-02-17 18:06:02.685 [main] INFO  com.mista1984.bank.app.AppRun - Enter 10 to selection of transactions for the period
+2022-02-17 18:06:04.367 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Input id Bank for show users
+2022-02-17 18:06:06.455 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Showing users in bank
+2022-02-17 18:06:06.456 [main] INFO  com.mista1984.bank.service.BankServiceImpl - [IndividualPerson{idUser='9l9t0j', nameUser='Ivan', bankAccountList=[BankAccount{numberOfBankAccount='w4mbFQQmSJ', balance=3900.0, currency=BYN}, BankAccount{numberOfBankAccount='pOiLEToIOl', balance=1950.0, currency=USD}]}
+]
+2022-02-17 18:06:06.456 [main] INFO  com.mista1984.bank.app.AppRun - Enter 0 to exit the application
+2022-02-17 18:06:06.457 [main] INFO  com.mista1984.bank.app.AppRun - Enter 1 to show all banks
+2022-02-17 18:06:06.457 [main] INFO  com.mista1984.bank.app.AppRun - Enter 2 to add bank
+2022-02-17 18:06:06.457 [main] INFO  com.mista1984.bank.app.AppRun - Enter 3 to delete bank
+2022-02-17 18:06:06.457 [main] INFO  com.mista1984.bank.app.AppRun - Enter 4 to show users in the bank
+2022-02-17 18:06:06.457 [main] INFO  com.mista1984.bank.app.AppRun - Enter 5 to add the user in bank
+2022-02-17 18:06:06.457 [main] INFO  com.mista1984.bank.app.AppRun - Enter 6 to add user account
+2022-02-17 18:06:06.458 [main] INFO  com.mista1984.bank.app.AppRun - Enter 7 to top up account
+2022-02-17 18:06:06.458 [main] INFO  com.mista1984.bank.app.AppRun - Enter 8 to transfer money
+2022-02-17 18:06:06.458 [main] INFO  com.mista1984.bank.app.AppRun - Enter 9 to show account transactions
+2022-02-17 18:06:06.458 [main] INFO  com.mista1984.bank.app.AppRun - Enter 10 to selection of transactions for the period
+2022-02-17 18:06:07.959 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Input id Bank for show users
+2022-02-17 18:06:09.006 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Showing users in bank
+2022-02-17 18:06:09.007 [main] INFO  com.mista1984.bank.service.BankServiceImpl - [Orginization{idUser='3EGGSI', nameUser='Azot', bankAccountList=[BankAccount{numberOfBankAccount='JmgeBDgAEj', balance=95700.0, currency=BYN}]}
+, IndividualPerson{idUser='CG3rVf', nameUser='Petia', bankAccountList=[BankAccount{numberOfBankAccount='oklWgBqslH', balance=2000.0, currency=BYN}]}
+, Orginization{idUser='7mU6jj', nameUser='Biocom', bankAccountList=[BankAccount{numberOfBankAccount='UT8cAvNMG2', balance=17500.0, currency=BYN}]}
+]
+2022-02-17 18:06:09.007 [main] INFO  com.mista1984.bank.app.AppRun - Enter 0 to exit the application
+2022-02-17 18:06:09.008 [main] INFO  com.mista1984.bank.app.AppRun - Enter 1 to show all banks
+2022-02-17 18:06:09.008 [main] INFO  com.mista1984.bank.app.AppRun - Enter 2 to add bank
+2022-02-17 18:06:09.008 [main] INFO  com.mista1984.bank.app.AppRun - Enter 3 to delete bank
+2022-02-17 18:06:09.009 [main] INFO  com.mista1984.bank.app.AppRun - Enter 4 to show users in the bank
+2022-02-17 18:06:09.009 [main] INFO  com.mista1984.bank.app.AppRun - Enter 5 to add the user in bank
+2022-02-17 18:06:09.009 [main] INFO  com.mista1984.bank.app.AppRun - Enter 6 to add user account
+2022-02-17 18:06:09.009 [main] INFO  com.mista1984.bank.app.AppRun - Enter 7 to top up account
+2022-02-17 18:06:09.010 [main] INFO  com.mista1984.bank.app.AppRun - Enter 8 to transfer money
+2022-02-17 18:06:09.010 [main] INFO  com.mista1984.bank.app.AppRun - Enter 9 to show account transactions
+2022-02-17 18:06:09.010 [main] INFO  com.mista1984.bank.app.AppRun - Enter 10 to selection of transactions for the period
+2022-02-17 18:07:12.408 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Enter the id of the bank from which you want to make a transfer:
+2022-02-17 18:07:14.074 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Enter the id of the user from which you want to make a transfer:
+2022-02-17 18:07:23.955 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Try find bank id = '1'
+2022-02-17 18:07:23.956 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Find users in bank
+2022-02-17 18:07:23.956 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Find user in bank with id = '7mU6jj'
+2022-02-17 18:07:23.956 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Enter number of account:
+2022-02-17 18:07:32.745 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Try find bank account number= 'UT8cAvNMG2'
+2022-02-17 18:07:32.746 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Find bank account number= 'UT8cAvNMG2'
+2022-02-17 18:07:32.746 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Enter the id of the bank to which you want to transfer money:
+2022-02-17 18:07:36.570 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Enter the id of the user to which you want to transfer money:
+2022-02-17 18:07:48.504 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Try find bank id = '0'
+2022-02-17 18:07:48.504 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Find users in bank
+2022-02-17 18:07:48.504 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Find user in bank with id = '9l9t0j'
+2022-02-17 18:07:48.505 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Enter number of account:
+2022-02-17 18:08:04.665 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Try find bank account number= 'w4mbFQQmSJ'
+2022-02-17 18:08:04.666 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Find bank account number= 'w4mbFQQmSJ'
+2022-02-17 18:08:04.668 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Enter the amount you want to top up your account:
+2022-02-17 18:08:07.379 [main] INFO  com.mista1984.bank.app.AppRun - Enter 0 to exit the application
+2022-02-17 18:08:07.379 [main] INFO  com.mista1984.bank.app.AppRun - Enter 1 to show all banks
+2022-02-17 18:08:07.380 [main] INFO  com.mista1984.bank.app.AppRun - Enter 2 to add bank
+2022-02-17 18:08:07.381 [main] INFO  com.mista1984.bank.app.AppRun - Enter 3 to delete bank
+2022-02-17 18:08:07.381 [main] INFO  com.mista1984.bank.app.AppRun - Enter 4 to show users in the bank
+2022-02-17 18:08:07.382 [main] INFO  com.mista1984.bank.app.AppRun - Enter 5 to add the user in bank
+2022-02-17 18:08:07.382 [main] INFO  com.mista1984.bank.app.AppRun - Enter 6 to add user account
+2022-02-17 18:08:07.382 [main] INFO  com.mista1984.bank.app.AppRun - Enter 7 to top up account
+2022-02-17 18:08:07.383 [main] INFO  com.mista1984.bank.app.AppRun - Enter 8 to transfer money
+2022-02-17 18:08:07.383 [main] INFO  com.mista1984.bank.app.AppRun - Enter 9 to show account transactions
+2022-02-17 18:08:07.383 [main] INFO  com.mista1984.bank.app.AppRun - Enter 10 to selection of transactions for the period
+2022-02-17 18:08:11.998 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Input id Bank for show users
+2022-02-17 18:08:15.327 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Showing users in bank
+2022-02-17 18:08:15.328 [main] INFO  com.mista1984.bank.service.BankServiceImpl - [Orginization{idUser='3EGGSI', nameUser='Azot', bankAccountList=[BankAccount{numberOfBankAccount='JmgeBDgAEj', balance=95700.0, currency=BYN}]}
+, IndividualPerson{idUser='CG3rVf', nameUser='Petia', bankAccountList=[BankAccount{numberOfBankAccount='oklWgBqslH', balance=2000.0, currency=BYN}]}
+, Orginization{idUser='7mU6jj', nameUser='Biocom', bankAccountList=[BankAccount{numberOfBankAccount='UT8cAvNMG2', balance=16440.0, currency=BYN}]}
+]
+2022-02-17 18:08:15.328 [main] INFO  com.mista1984.bank.app.AppRun - Enter 0 to exit the application
+2022-02-17 18:08:15.329 [main] INFO  com.mista1984.bank.app.AppRun - Enter 1 to show all banks
+2022-02-17 18:08:15.329 [main] INFO  com.mista1984.bank.app.AppRun - Enter 2 to add bank
+2022-02-17 18:08:15.329 [main] INFO  com.mista1984.bank.app.AppRun - Enter 3 to delete bank
+2022-02-17 18:08:15.329 [main] INFO  com.mista1984.bank.app.AppRun - Enter 4 to show users in the bank
+2022-02-17 18:08:15.329 [main] INFO  com.mista1984.bank.app.AppRun - Enter 5 to add the user in bank
+2022-02-17 18:08:15.330 [main] INFO  com.mista1984.bank.app.AppRun - Enter 6 to add user account
+2022-02-17 18:08:15.330 [main] INFO  com.mista1984.bank.app.AppRun - Enter 7 to top up account
+2022-02-17 18:08:15.330 [main] INFO  com.mista1984.bank.app.AppRun - Enter 8 to transfer money
+2022-02-17 18:08:15.330 [main] INFO  com.mista1984.bank.app.AppRun - Enter 9 to show account transactions
+2022-02-17 18:08:15.330 [main] INFO  com.mista1984.bank.app.AppRun - Enter 10 to selection of transactions for the period
+2022-02-17 18:08:16.319 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Input id Bank for show users
+2022-02-17 18:08:16.870 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Showing users in bank
+2022-02-17 18:08:16.871 [main] INFO  com.mista1984.bank.service.BankServiceImpl - [IndividualPerson{idUser='9l9t0j', nameUser='Ivan', bankAccountList=[BankAccount{numberOfBankAccount='w4mbFQQmSJ', balance=4900.0, currency=BYN}, BankAccount{numberOfBankAccount='pOiLEToIOl', balance=1950.0, currency=USD}]}
+]
+2022-02-17 18:08:16.871 [main] INFO  com.mista1984.bank.app.AppRun - Enter 0 to exit the application
+2022-02-17 18:08:16.871 [main] INFO  com.mista1984.bank.app.AppRun - Enter 1 to show all banks
+2022-02-17 18:08:16.871 [main] INFO  com.mista1984.bank.app.AppRun - Enter 2 to add bank
+2022-02-17 18:08:16.872 [main] INFO  com.mista1984.bank.app.AppRun - Enter 3 to delete bank
+2022-02-17 18:08:16.872 [main] INFO  com.mista1984.bank.app.AppRun - Enter 4 to show users in the bank
+2022-02-17 18:08:16.872 [main] INFO  com.mista1984.bank.app.AppRun - Enter 5 to add the user in bank
+2022-02-17 18:08:16.872 [main] INFO  com.mista1984.bank.app.AppRun - Enter 6 to add user account
+2022-02-17 18:08:16.873 [main] INFO  com.mista1984.bank.app.AppRun - Enter 7 to top up account
+2022-02-17 18:08:16.873 [main] INFO  com.mista1984.bank.app.AppRun - Enter 8 to transfer money
+2022-02-17 18:08:16.873 [main] INFO  com.mista1984.bank.app.AppRun - Enter 9 to show account transactions
+2022-02-17 18:08:16.874 [main] INFO  com.mista1984.bank.app.AppRun - Enter 10 to selection of transactions for the period
+2022-02-17 18:08:30.897 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Enter id Bank:
+2022-02-17 18:08:32.723 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Enter id user:
+2022-02-17 18:08:42.000 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Try find bank id = '1'
+2022-02-17 18:08:42.001 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Find users in bank
+2022-02-17 18:08:42.001 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Find user in bank with id = '7mU6jj'
+2022-02-17 18:08:42.001 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Enter number of account:
+2022-02-17 18:08:49.906 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Try find bank account number= 'UT8cAvNMG2'
+2022-02-17 18:08:49.907 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Find bank account number= 'UT8cAvNMG2'
+2022-02-17 18:08:49.915 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Date: 2022-02-17T16:33:20.835564300 Value: creating an account: UT8cAvNMG2, balance: 0.0 BYN
+2022-02-17 18:08:49.916 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Date: 2022-02-17T16:34:02.515579800 Value: top up an account UT8cAvNMG2on: 15000.0, balance: 15000.0 BYN
+2022-02-17 18:08:49.916 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Date: 2022-02-17T16:35:23.255449300 Value: transfer money to account: JmgeBDgAEjon: 1000.0 BYN, balance: 13940.0 BYN
+2022-02-17 18:08:49.916 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Date: 2022-02-17T16:41:23.926950600 Value: transfer money from account: pOiLEToIOl on: 1000.0 USD, balance: 16500.0 BYN
+2022-02-17 18:08:49.916 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Date: 2022-02-17T18:04:35.128898700 Value: transfer money from account: oklWgBqslH on: 1000.0 BYN, balance: 17500.0 BYN
+2022-02-17 18:08:49.916 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Date: 2022-02-17T18:08:07.379641500 Value: transfer money to account: w4mbFQQmSJ on: 1000.0 BYN, balance: 16440.0 BYN
+2022-02-17 18:08:49.917 [main] INFO  com.mista1984.bank.app.AppRun - Enter 0 to exit the application
+2022-02-17 18:08:49.917 [main] INFO  com.mista1984.bank.app.AppRun - Enter 1 to show all banks
+2022-02-17 18:08:49.917 [main] INFO  com.mista1984.bank.app.AppRun - Enter 2 to add bank
+2022-02-17 18:08:49.917 [main] INFO  com.mista1984.bank.app.AppRun - Enter 3 to delete bank
+2022-02-17 18:08:49.917 [main] INFO  com.mista1984.bank.app.AppRun - Enter 4 to show users in the bank
+2022-02-17 18:08:49.917 [main] INFO  com.mista1984.bank.app.AppRun - Enter 5 to add the user in bank
+2022-02-17 18:08:49.918 [main] INFO  com.mista1984.bank.app.AppRun - Enter 6 to add user account
+2022-02-17 18:08:49.918 [main] INFO  com.mista1984.bank.app.AppRun - Enter 7 to top up account
+2022-02-17 18:08:49.918 [main] INFO  com.mista1984.bank.app.AppRun - Enter 8 to transfer money
+2022-02-17 18:08:49.918 [main] INFO  com.mista1984.bank.app.AppRun - Enter 9 to show account transactions
+2022-02-17 18:08:49.918 [main] INFO  com.mista1984.bank.app.AppRun - Enter 10 to selection of transactions for the period
+2022-02-17 18:09:18.016 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Enter id Bank:
+2022-02-17 18:09:20.332 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Enter id user:
+2022-02-17 18:09:29.259 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Try find bank id = '0'
+2022-02-17 18:09:29.260 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Find users in bank
+2022-02-17 18:09:29.260 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Find user in bank with id = '9l9t0j'
+2022-02-17 18:09:29.260 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Enter number of account:
+2022-02-17 18:09:40.950 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Enter the date of transactions from which you want to make a selection (in format:dd.MM.yyyy):
+2022-02-17 18:09:54.184 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Enter the date of transactions to which you want to make a selection (in format:dd.MM.yyyy):
+2022-02-17 18:09:59.587 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Try find bank account number= 'w4mbFQQmSJ'
+2022-02-17 18:09:59.587 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Find bank account number= 'w4mbFQQmSJ'
+2022-02-17 18:09:59.589 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Date: 2022-02-17T18:08:07.379641500 Value: transfer money from account: UT8cAvNMG2 on: 1000.0 BYN, balance: 4900.0 BYN
+2022-02-17 18:09:59.589 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Date: 2022-02-17T16:26:45.886072100 Value: transfer money to account: oklWgBqslHon: 2000.0 BYN, balance: 3900.0 BYN
+2022-02-17 18:10:34.533 [main] INFO  com.mista1984.bank.io.SerializationUtils - Data is loaded.
+2022-02-17 18:10:34.547 [main] INFO  com.mista1984.bank.app.AppRun - Enter 0 to exit the application
+2022-02-17 18:10:34.548 [main] INFO  com.mista1984.bank.app.AppRun - Enter 1 to show all banks
+2022-02-17 18:10:34.548 [main] INFO  com.mista1984.bank.app.AppRun - Enter 2 to add bank
+2022-02-17 18:10:34.548 [main] INFO  com.mista1984.bank.app.AppRun - Enter 3 to delete bank
+2022-02-17 18:10:34.549 [main] INFO  com.mista1984.bank.app.AppRun - Enter 4 to show users in the bank
+2022-02-17 18:10:34.554 [main] INFO  com.mista1984.bank.app.AppRun - Enter 5 to add the user in bank
+2022-02-17 18:10:34.554 [main] INFO  com.mista1984.bank.app.AppRun - Enter 6 to add user account
+2022-02-17 18:10:34.555 [main] INFO  com.mista1984.bank.app.AppRun - Enter 7 to top up account
+2022-02-17 18:10:34.555 [main] INFO  com.mista1984.bank.app.AppRun - Enter 8 to transfer money
+2022-02-17 18:10:34.555 [main] INFO  com.mista1984.bank.app.AppRun - Enter 9 to show account transactions
+2022-02-17 18:10:34.556 [main] INFO  com.mista1984.bank.app.AppRun - Enter 10 to selection of transactions for the period
+2022-02-17 18:10:37.054 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Input id Bank for show users
+2022-02-17 18:10:37.904 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Showing users in bank
+2022-02-17 18:10:37.938 [main] INFO  com.mista1984.bank.service.BankServiceImpl - [IndividualPerson{idUser='9l9t0j', nameUser='Ivan', bankAccountList=[BankAccount{numberOfBankAccount='w4mbFQQmSJ', balance=3900.0, currency=BYN}, BankAccount{numberOfBankAccount='pOiLEToIOl', balance=1950.0, currency=USD}]}
+]
+2022-02-17 18:10:37.938 [main] INFO  com.mista1984.bank.app.AppRun - Enter 0 to exit the application
+2022-02-17 18:10:37.938 [main] INFO  com.mista1984.bank.app.AppRun - Enter 1 to show all banks
+2022-02-17 18:10:37.938 [main] INFO  com.mista1984.bank.app.AppRun - Enter 2 to add bank
+2022-02-17 18:10:37.938 [main] INFO  com.mista1984.bank.app.AppRun - Enter 3 to delete bank
+2022-02-17 18:10:37.939 [main] INFO  com.mista1984.bank.app.AppRun - Enter 4 to show users in the bank
+2022-02-17 18:10:37.939 [main] INFO  com.mista1984.bank.app.AppRun - Enter 5 to add the user in bank
+2022-02-17 18:10:37.939 [main] INFO  com.mista1984.bank.app.AppRun - Enter 6 to add user account
+2022-02-17 18:10:37.939 [main] INFO  com.mista1984.bank.app.AppRun - Enter 7 to top up account
+2022-02-17 18:10:37.939 [main] INFO  com.mista1984.bank.app.AppRun - Enter 8 to transfer money
+2022-02-17 18:10:37.940 [main] INFO  com.mista1984.bank.app.AppRun - Enter 9 to show account transactions
+2022-02-17 18:10:37.940 [main] INFO  com.mista1984.bank.app.AppRun - Enter 10 to selection of transactions for the period
+2022-02-17 18:10:40.797 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Enter id Bank:
+2022-02-17 18:10:42.957 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Enter id user:
+2022-02-17 18:10:49.296 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Try find bank id = '0'
+2022-02-17 18:10:49.297 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Find users in bank
+2022-02-17 18:10:49.297 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Find user in bank with id = '9l9t0j'
+2022-02-17 18:10:49.297 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Enter number of account:
+2022-02-17 18:10:58.725 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Try find bank account number= 'w4mbFQQmSJ'
+2022-02-17 18:10:58.726 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Find bank account number= 'w4mbFQQmSJ'
+2022-02-17 18:10:58.739 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Date: 2022-02-17T16:26:45.886072100 Value: transfer money to account: oklWgBqslHon: 2000.0 BYN, balance: 3900.0 BYN
+2022-02-17 18:10:58.740 [main] INFO  com.mista1984.bank.service.BankServiceImpl - Date: 2022-02-17 Value: transfer money from account: JmgeBDgAEjon: 5000.0 BYN, balance: 6000.0 BYN
+2022-02-17 18:10:58.740 [main] INFO  com.mista1984.bank.app.AppRun - Enter 0 to exit the application
+2022-02-17 18:10:58.740 [main] INFO  com.mista1984.bank.app.AppRun - Enter 1 to show all banks
+2022-02-17 18:10:58.740 [main] INFO  com.mista1984.bank.app.AppRun - Enter 2 to add bank
+2022-02-17 18:10:58.741 [main] INFO  com.mista1984.bank.app.AppRun - Enter 3 to delete bank
+2022-02-17 18:10:58.741 [main] INFO  com.mista1984.bank.app.AppRun - Enter 4 to show users in the bank
+2022-02-17 18:10:58.741 [main] INFO  com.mista1984.bank.app.AppRun - Enter 5 to add the user in bank
+2022-02-17 18:10:58.741 [main] INFO  com.mista1984.bank.app.AppRun - Enter 6 to add user account
+2022-02-17 18:10:58.741 [main] INFO  com.mista1984.bank.app.AppRun - Enter 7 to top up account
+2022-02-17 18:10:58.742 [main] INFO  com.mista1984.bank.app.AppRun - Enter 8 to transfer money
+2022-02-17 18:10:58.742 [main] INFO  com.mista1984.bank.app.AppRun - Enter 9 to show account transactions
+2022-02-17 18:10:58.742 [main] INFO  com.mista1984.bank.app.AppRun - Enter 10 to selection of transactions for the period
+2022-02-17 18:11:18.446 [main] INFO  com.mista1984.bank.app.AppRun - Goodbye!
+2022-02-17 18:11:18.489 [main] INFO  com.mista1984.bank.io.SerializationUtils - Data was saved.

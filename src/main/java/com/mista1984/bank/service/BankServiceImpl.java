@@ -311,10 +311,11 @@ public class BankServiceImpl implements BankService{
                 String currencyOn = bankAccountOn.getCurrency().name();
                 double exchangeRate = 1;
 
-
+                if (idBankFrom!=idBankOn){
                     accountBalanceFrom -= summCommissionOfBank;
-                    accountBalanceFrom -= transferAmount;
+                }
 
+                    accountBalanceFrom -= transferAmount;
                     if(currencyFrom.equals("BYN") && currencyOn.equals("BYN")){
                         exchangeRate = map.get("BYN-BYN");
                     }
