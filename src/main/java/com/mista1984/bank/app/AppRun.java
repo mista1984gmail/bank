@@ -1,7 +1,9 @@
 package com.mista1984.bank.app;
 
 import com.mista1984.bank.db.DataBase;
+import com.mista1984.bank.repository.BankRepository;
 import com.mista1984.bank.repository.BankRepositoryImpl;
+import com.mista1984.bank.service.BankService;
 import com.mista1984.bank.service.BankServiceImpl;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -10,8 +12,8 @@ import java.util.Scanner;
 
 public class AppRun {
     private static final Logger logger = LogManager.getLogger(AppRun.class);
-    public static final BankRepositoryImpl BANK_REPOSITORY = new BankRepositoryImpl();
-    public static final BankServiceImpl BANK_SERVICE = new BankServiceImpl(BANK_REPOSITORY);
+    public static final BankRepository BANK_REPOSITORY = new BankRepositoryImpl();
+    public static final BankService BANK_SERVICE = new BankServiceImpl(BANK_REPOSITORY);
 
     public void runApplication() throws Exception{
         DataBase.getInstance().load();

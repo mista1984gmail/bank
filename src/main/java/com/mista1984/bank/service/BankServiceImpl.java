@@ -214,8 +214,8 @@ public class BankServiceImpl implements BankService{
         BankAccount bankAccount = findBankAccount(user, numberOfAccount);
         logger.info("Enter the amount you want to top up your account:");
 
-        double summ = scanner.nextDouble();
         try{
+            double summ = scanner.nextDouble();
             if (summ>0){
                 double accountBalance = bankAccount.getBalance();
                 accountBalance+=summ;
@@ -226,6 +226,10 @@ public class BankServiceImpl implements BankService{
         catch (NegativeValueOfAccountReplenishment e){
             logger.info(e.getMessage());
         }
+        catch (Exception e){
+            logger.info(e.getMessage() + " Something went wrong!!!");
+        }
+
 
     }
 
@@ -259,8 +263,9 @@ public class BankServiceImpl implements BankService{
         BankAccount bankAccountOn = findBankAccount(userOn, numberOfAccountOn);
 
         logger.info("Enter the amount you want to top up your account:");
-        double transferAmount = scanner.nextDouble();
+
         try {
+            double transferAmount = scanner.nextDouble();
             double accountBalanceFrom = bankAccountFrom.getBalance();
             double accountBalanceOn = bankAccountOn.getBalance();
             Bank bank = repository.getBank(idBankFrom).get();
@@ -336,7 +341,7 @@ public class BankServiceImpl implements BankService{
             logger.info(e.getMessage());
         }
         catch (Exception e){
-            logger.info(e.getMessage());
+            logger.info(e.getMessage() + " Something went wrong!!!");
         }
 
     }
