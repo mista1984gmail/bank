@@ -31,6 +31,8 @@ public class AppRun {
             logger.info("Enter 6 to add user account");//to add user account
             logger.info("Enter 7 to top up account");//top up account
             logger.info("Enter 8 to transfer money");//to transfer money
+            logger.info("Enter 9 to show account transactions");//show account transactions
+            logger.info("Enter 10 to selection of transactions for the period");//selection of transactions for the period
             System.out.println("_______________________________________________________________________");
             // reading input
             userInput = scanner.nextInt();
@@ -63,6 +65,12 @@ public class AppRun {
                     break;
                 case 8:
                     BANK_SERVICE.transferMoney();
+                    break;
+                case 9:
+                    BANK_SERVICE.showAccountTransactions();
+                    break;
+                case 10:
+                    BANK_SERVICE.showAccountTransactionsForPeriod();
                     break;
                 default:
                     logger.info("There is no such option, please choose another option.");

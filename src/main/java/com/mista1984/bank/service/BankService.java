@@ -20,4 +20,6 @@ public interface BankService {
     void topUpAccount()throws Exception;
     void transferMoney()throws Exception;
     void addUserAccount() throws Exception;
+    void showAccountTransactions() throws Exception;
+    void showAccountTransactionsForPeriod() throws Exception;
 }
